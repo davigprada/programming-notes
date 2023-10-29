@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+</head>
+<body>
+    <header>
+        <h1>Datos personales</h1>
+        <h2><strong>Autocompletado y datos obligatorios</strong></h2><br>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>¿Cuál es tu nombre?</span>
+                <input type="text" name="nombre"
+                id="nombre" placeholder="tu nombre"
+                autocomplete="name" required><br><br>
+            </label>
+            <label for="correo">
+                <span>¿Cuál es tu correo electrónico?</span>
+                <input type="email" name="correo"
+                id="correo" placeholder="tu correo electrónico"
+                autocomplete="email" required><br><br>
+            </label>
+            <label for="pais">
+                <span>¿En qué país vives?</span>
+                <input list="pais" required placeholder="tu país">
+                <datalist id="pais">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Argentina">Argentina</option>
+                </datalist>
+                </input>
+                <br><br>
+            </label>
+            <label for="cp">
+                <span>¿Cuál es tu código postal?</span>
+                <input type="number" name="cp"
+                id="cp" placeholder="tu código postal"
+                autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

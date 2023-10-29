@@ -1,0 +1,26 @@
+body
+{
+    background-color: cornflowerblue;
+}
+
+/*Creando y estilando pseudoclases*/
+.main-nav
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: darkblue;
+}
+.main-nav__item
+{
+    display: inline-block;
+}
+.main-nav__item a
+{
+    font-family: Impact;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none
+}
