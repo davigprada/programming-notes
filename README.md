@@ -1,1 +1,1 @@
-# Notes, exercises and lessons on python programming
+# Programming notes, exercises and lessons
